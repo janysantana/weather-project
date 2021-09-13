@@ -16,10 +16,10 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
+      <div class="justify-content-center" id="weather-app">
         <form id="search-form">
-          <div class="row">
-            <div class="col-8">
+          <div class="row justify-content-center">
+            <div class="col-6">
               <input
                 type="search"
                 placeholder="Type a city..."
@@ -28,17 +28,17 @@
                 auto-complete="off"
               />
             </div>
-            <div class="col-4">
+            <div class="col-3">
               <input
                 type="submit"
                 value="Search"
-                class="btn btn-primary w-100"
+                class="btn btn-outline-light w-100"
               />
             </div>
           </div>
         </form>
         <div class="overview">
-          <h1 id="city"></h1>
+          <h1 id="city"><strong>Orlando</strong></h1>
           <ul>
             <li>Last updated: <span id="date"></span></li>
             <li id="conditions"></li>
@@ -57,20 +57,21 @@
           <div class="col-6">
             <ul>
               <li>Humidity: <span id="humidity"></span>%</li>
-              <li>Wind: <span id="wind"></span>m/h | k/h</li>
+              <li>Wind: <span id="wind"></span> m/h | k/h</li>
             </ul>
           </div>
         </div>
-        <small>
-          <a
-            href="https://github.com/janysantana/weather-project"
-            target="_blank"
-          >
-            Open-source code</a
-          >
-          by Jany Santana
-        </small>
       </div>
+      <small>
+        Open source
+        <a
+          href="https://github.com/janysantana/weather-project"
+          target="_blank"
+        >
+          code</a
+        >
+        by Jany Santana
+      </small>
     </div>
     <script src="src/app.js"></script>
   </body>
