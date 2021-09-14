@@ -1,6 +1,6 @@
 * {
   max-width: 800px;
-  justify-content: center;
+
   overflow: auto;
 }
 
@@ -12,6 +12,8 @@
   padding: 50px;
   background-image: linear-gradient(#489ff3, #424af0);
   color: #f0f8ff;
+  display: flex;
+  justify-content: center;
 }
 
 .search-form {
