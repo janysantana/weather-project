@@ -1,0 +1,40 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="sunny">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M70 48C70 60.1503 60.1503 70 48 70C35.8497 70 26 60.1503 26 48C26 35.8497 35.8497 26 48 26C60.1503 26 70 35.8497 70 48Z" stroke="#231815" stroke-width="2"/>
+<path id="Vector_2" d="M87 47H77" stroke="#F25022" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M19 47H9" stroke="#F25022" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M87 47H77" stroke="#231815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M19 47H9" stroke="#231815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="Group">
+<path id="Vector_6" d="M82.275 66.634L73.6147 61.634" stroke="#231815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_2">
+<path id="Vector_7" d="M23.3853 32.634L14.725 27.634" stroke="#231815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_3">
+<path id="Vector_8" d="M68.366 81.275L63.366 72.6147" stroke="#231815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_4">
+<path id="Vector_9" d="M34.366 22.3853L29.366 13.725" stroke="#231815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_5">
+<path id="Vector_10" d="M49 87V77" stroke="#231815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_6">
+<path id="Vector_11" d="M49 19V9" stroke="#231815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_7">
+<path id="Vector_12" d="M29.366 82.275L34.366 73.6147" stroke="#231815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_8">
+<path id="Vector_13" d="M63.366 23.3853L68.366 14.725" stroke="#231815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_9">
+<path id="Vector_14" d="M14.725 68.366L23.3853 63.366" stroke="#231815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Group_10">
+<path id="Vector_15" d="M73.6147 34.366L82.275 29.366" stroke="#231815" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="Vector_16" d="M68 48C68 59.0457 59.0457 68 48 68C36.9543 68 28 59.0457 28 48C28 36.9543 36.9543 28 48 28C59.0457 28 68 36.9543 68 48Z" fill="#FFB900"/>
+</g>
+</svg>
