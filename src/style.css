@@ -1,25 +1,25 @@
-* {
-  max-width: 800px;
-  overflow: auto;
+.container {
+  position: relative;
+  max-inline-size: 50%;
+  margin-top: 5%;
 }
 
 #weather-app {
-  font-family: sans-serif;
-  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
   border: 4px solid #fff;
   border-radius: 20px;
   padding: 40px 20px;
   background-image: linear-gradient(#489ff3, #424af0);
   color: #f0f8ff;
-  justify-content: center;
 }
 
 #search-form {
+  justify-content: center;
+  overflow: hidden;
 }
 
 h1 {
   padding: 14px 0 8px 0;
-
   line-height: 40px;
 }
 
@@ -38,8 +38,4 @@ li {
 
 li:first-letter {
   text-transform: capitalize;
-}
-
-small {
-  margin-left: 40px;
 }
