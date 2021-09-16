@@ -1,63 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
-  /*background-color: #1f7ea1;
-*/
-}
-
-.container {
-  position: relative;
-  max-inline-size: 50%;
-  margin-top: 5%;
+  width: 430px;
+  margin: 0 auto;
+  background: #ebebeb;
   font-family: "Open Sans", sans-serif;
 }
 
-button {
-  background-color: #37a6d2;
+.search {
+  width: 90%;
+  position: relative;
+  display: flex;
 }
 
-.weather-app {
+.searchTerm {
+  width: 100%;
+  border: 3px solid #000;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #0000;
+}
+
+.searchTerm:focus {
   color: black;
-  padding: 40px 20px;
-  font-family: "Open Sans", sans-serif;
 }
 
-#today {
-  border: 1px solid #fff;
-  border-radius: 10px;
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 3px solid #000;
+  background-color: transparent;
+  text-align: center;
+  color: #000;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap {
+  width: 40%;
   position: relative;
-  max-inline-size: 50%;
-  padding: 7%;
-  background-color: #37a6d2;
-  margin-right: 0;
+  margin-top: 15%;
+  top: 50%;
+  left: 50%;
 }
 
 h1 {
-  padding: 20px 20px 7px 20px;
-  font-size: 40px;
-  text-transform: capitalize;
+  margin-top: 25px;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
   text-align: center;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-li:first-letter {
   text-transform: capitalize;
 }
 
-small {
-  display: inline-block;
-}
-
-a {
-  color: black;
+.today-wrapper {
+  width: 30%;
+  background-color: #b4cdcf;
+  color: #000;
+  text-transform: capitalize;
 }

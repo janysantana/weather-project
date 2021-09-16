@@ -1,74 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/axios@0.21.4/dist/axios.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Weather App</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
-  <link rel="stylesheet" href="src/style.css" />
-  <script src="https://unpkg.com/axios@0.21.4/dist/axios.min.js"></script>
-</head>
-
-<body>
-  <div class="container">
-    <div class="weather-app">
-      <div class="row justify-content-end">
-        <div class="col-4">
-            <input type="search" placeholder="Type a city..." class="form-control form-control-sm" id="city-input" auto-complete="off" />
-        </div>
-        <div class="col-2">
-          <button type="submit" value="Search" class="btn btn-pill btn-primary btn-sm" id="search-form">Search</button>
+  <body>
+    <div class="container">
+      <div class="weather-app-wrapper">
+        <div class="wrap">
+          <div class="search" id="search-form">
+            <input
+              type="text"
+              class="searchTerm"
+              placeholder="Search a city..."
+              id="city-input"
+            />
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+            </button>
           </div>
-      </div>
-      <div class="row justify-content-center">
-        
-    <h1 id="city"><strong>Orlando</strong></h1>
-
-<div class="row justify-content-center">
-  <div class="today" id="today">
-    <div class="overview">
-      <ul>
-        <li>Last updated: <span id="date"></span></li>
-        <li id="conditions"></li>
-      </ul>
-    </div>
-    <div class="row">
-      <div class="col-6">
-        <div class="clearfix weather-temperature">
-          <img src="" alt="" id="icon" class="float-left" />
-          <div class="float-left">
-            <strong id="temperature"></strong>
-            <span class="temp-unit">°F | °C</span>
+        </div>
+        <div class="weather-app">
+          <h1 id="city">Orlando</h1>
+          <h3>Last updated: <span id="date"></span></h3>
+          <div class="today-wrapper">
+            <div class="row" id="today">
+              <div class="col-6 justify-content-left"></div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-6">
-        <ul>
-          <li>Humidity: <span id="humidity"></span>%</li>
-          <li>Wind: <span id="wind"></span> m/h | k/h</li>
-        </ul>
-      </div>
     </div>
-    </div>
-    </div>
-  </div>
-  </div>
-  
-  <br />
-  <small>
-    Open-source
-    <a href="https://github.com/janysantana/weather-project">code</a> by
-    Jany Santana
-  </small>
-  </div>
-</div>
-  <script src="src/app.js"></script>
-</body>
-
+  </body>
 </html>
