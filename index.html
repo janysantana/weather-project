@@ -17,7 +17,7 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="wrap">
-          <div class="search" id="search-form">
+          <form class="search" id="search-form">
             <input
               type="text"
               class="searchTerm"
@@ -27,23 +27,42 @@
             <button type="submit" class="searchButton">
               <i class="fa fa-search"></i>
             </button>
-          </div>
+          </form>
         </div>
         <div class="weather-app">
           <h1 id="city">Orlando</h1>
-          <h5>Last updated: <span id="date"></span></h5>
+          <p>Last updated: <span id="date"></span></p>
           <div class="today-wrapper">
-            <div id="today-icon-container">
-              <div class="row justify-content-center" id="icon">
-                <img src="" alt="" id="today-icon" />
-              </div>
-              <div class="row justify-content-center" id="current-temp">
-                <strong id="temperature"></strong>
-                <span class="units">°F | °C</span>
-              </div>
+            <div class="row">
+              <img
+                src="icons/partly-cloudy.svg"
+                alt=""
+                id="today-icon"
+                width="120px"
+                height="120px"
+              />
+            </div>
+            <div class="row" id="conditions"></div>
+            <div class="row">
+              <span id="temperature"></span>
+            </div>
+            <div class="row">
+              <p>Humidity: <span id="humidity"></span></p>
+            </div>
+            <div class="row" id="wind-speed">
+              <p>Wind: <span id="wind"></span></p>
             </div>
           </div>
         </div>
+        <p id="github">
+          Open-source
+          <a
+            href="https://github.com/janysantana/weather-project"
+            target="_blank"
+            >code</a
+          >
+          by Jany Santana
+        </p>
       </div>
     </div>
   </body>
