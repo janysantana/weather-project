@@ -30,9 +30,9 @@ function displayTemperature(response) {
   let dateElement = document.querySelector("#date");
   //let iconAttribute = ;
 
-  celsiusTemperature = response.data.main.temp;
+  fahrenheitTemperature = response.data.main.temp;
 
-  temperatureElement.innerHTML = Math.round(celsiusTemperature) + "° F";
+  temperatureElement.innerHTML = Math.round(fahrenheitTemperature) + "° F";
   cityElement.innerHTML = response.data.name;
   conditionsElement.innerHTML = response.data.weather[0].description;
   humidityElement.innerHTML = response.data.main.humidity + "%";
