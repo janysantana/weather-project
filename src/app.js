@@ -28,7 +28,7 @@ function displayTemperature(response) {
   let humidityElement = document.querySelector("#humidity");
   let windElement = document.querySelector("#wind");
   let dateElement = document.querySelector("#date");
-  //let iconAttribute = ;
+  let iconElement = document.querySelector("#icon");
 
   fahrenheitTemperature = response.data.main.temp;
 
@@ -38,6 +38,10 @@ function displayTemperature(response) {
   humidityElement.innerHTML = response.data.main.humidity + "%";
   windElement.innerHTML = Math.round(response.data.wind.speed) + " mph";
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
+
+  let iconCode = response.data.weather[0].icon;
+
+  iconElement.setAttribute("src", `icons/${iconCode}.png`);
 }
 
 function search(city) {
@@ -55,4 +59,4 @@ function handleSubmit(event) {
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-search("Orlando");
+search("San Diego");
