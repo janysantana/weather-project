@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-  width: 320px;
+  max-width: 700px;
   margin: 0 auto;
   background: #e5f6f6;
   font-family: "Open Sans", sans-serif;
@@ -51,12 +51,14 @@ i {
 }
 
 .wrap {
-  width: 50%;
-  max-width: 350px;
-  position: relative;
-  margin-top: 15%;
-  top: 50%;
-  left: 50%;
+  /*width: 50%;*/
+  max-width: 200px;
+  /*position: relative;*/
+  margin-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 #city {
@@ -79,32 +81,43 @@ h5 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
+  margin-top: 2%;
+  margin-bottom: 2%;
   max-width: 250px;
-  padding: 5%;
-  background-color: #27e4ae;
+  padding: 2%;
+  border: 5px solid #27e4ae;
   color: #000;
   text-transform: capitalize;
   border-radius: 5px;
+}
+
+#currently,
+#forecast {
+  text-align: center;
+  font-size: 18px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #icon {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2px;
+  margin-top: 0px;
   margin-bottom: 2px;
 }
 
 #conditions {
   text-transform: capitalize;
   text-align: center;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin: 2px 0 2px 0;
 }
 
 #temperature {
-  margin: 6px;
+  margin: 6px 0 6px 0;
   display: block;
   text-align: center;
   font-size: 28px;
@@ -125,4 +138,25 @@ a:link,
 a:visited {
   font-weight: bold;
   color: #000;
+}
+
+.forecast-wrapper {
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  max-width: 450px;
+  padding: 2%;
+  border: 5px solid #fa8072;
+  color: #000;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.forecast-day {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
